@@ -91,7 +91,7 @@ def configure_connector():
                     "incrementing.column.name": "stop_id",  # TODO
                     "table.whitelist": "stations",  # TODO
                     "tasks.max": 1,
-                    "connection.url": "jdbc:postgresql://localhost:5432/cta",
+                    "connection.url": "jdbc:postgresql://postgres:5432/cta",
                     "connection.user": "cta_admin",
                     "connection.password":"chicago",
                     "poll.interval.ms":1000
